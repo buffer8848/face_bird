@@ -33,7 +33,7 @@
 		77EE44FF19ED0B6F00F6111A /* CameraHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHelper.h; sourceTree = "<group>"; };
 		77EE450019ED0B6F00F6111A /* CameraHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraHelper.mm; sourceTree = "<group>"; };
 		77EE450319ED24D700F6111A /* xiyouji.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = xiyouji.mp3; path = music/xiyouji.mp3; sourceTree = "<group>"; };
-		8540A34A1939BE690024F5A9 /* Face Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8540A34A1939BE690024F5A9 /* Face_Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Face_Bird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8540A34D1939BE690024F5A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8540A34F1939BE690024F5A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8540A3551939BE690024F5A9 /* XinYunBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XinYunBird-Info.plist"; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		8540A34B1939BE690024F5A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8540A34A1939BE690024F5A9 /* Face Bird.app */,
+				8540A34A1939BE690024F5A9 /* Face_Bird.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8540A3491939BE690024F5A9 /* Face Bird */ = {
+		8540A3491939BE690024F5A9 /* Face_Bird */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8540A3761939BE690024F5A9 /* Build configuration list for PBXNativeTarget "Face Bird" */;
+			buildConfigurationList = 8540A3761939BE690024F5A9 /* Build configuration list for PBXNativeTarget "Face_Bird" */;
 			buildPhases = (
 				8540A3461939BE690024F5A9 /* Sources */,
 				8540A3471939BE690024F5A9 /* Frameworks */,
@@ -160,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = "Face Bird";
+			name = Face_Bird;
 			productName = XinYunBird;
-			productReference = 8540A34A1939BE690024F5A9 /* Face Bird.app */;
+			productReference = 8540A34A1939BE690024F5A9 /* Face_Bird.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8540A3491939BE690024F5A9 /* Face Bird */,
+				8540A3491939BE690024F5A9 /* Face_Bird */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Alok Mishra (C395QGL4DK)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CIeNET Technologies (Beijing) Co., Ltd.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XinYunBird/XinYunBird-Prefix.pch";
 				INFOPLIST_FILE = "XinYunBird/XinYunBird-Info.plist";
@@ -321,7 +321,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "17C2E4D8-98C4-4061-8917-8EFB6F172818";
+				PROVISIONING_PROFILE = "714AAD0F-0690-4296-9F9B-A787680E7DA7";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -332,7 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Alok Mishra (C395QGL4DK)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CIeNET Technologies (Beijing) Co., Ltd.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XinYunBird/XinYunBird-Prefix.pch";
 				INFOPLIST_FILE = "XinYunBird/XinYunBird-Info.plist";
@@ -342,7 +342,7 @@
 					"$(PROJECT_DIR)/XinYunBird/pa-sdk",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "17C2E4D8-98C4-4061-8917-8EFB6F172818";
+				PROVISIONING_PROFILE = "714AAD0F-0690-4296-9F9B-A787680E7DA7";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8540A3761939BE690024F5A9 /* Build configuration list for PBXNativeTarget "Face Bird" */ = {
+		8540A3761939BE690024F5A9 /* Build configuration list for PBXNativeTarget "Face_Bird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8540A3771939BE690024F5A9 /* Debug */,
