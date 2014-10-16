@@ -177,7 +177,7 @@ int Avatar::OnTrack(void* pImageBuffer, int bufsize, int iWidth, int iHeight, in
         //float delta = value - temp;
         value = temp;
         //printf("head: %f, delta: %f.\n", temp, delta);
-        printf("mouth: %f.\n", ucharTofloat(aEvent.blendshape[12]));
+        //printf("mouth: %f.\n", ucharTofloat(aEvent.blendshape[12]));
         if (ucharTofloat(aEvent.blendshape[12]) > 0.3)
             return 1;
     }

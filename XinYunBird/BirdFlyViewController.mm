@@ -19,7 +19,7 @@ const float MaxTime = 50;
 //加速度，方向向下
 const float VG = 0.025;
 //初速度
-const float MaxV = 1.5;
+const float MaxV = 1.0;
 
 //初始化总路程
 //const float AllLength = 692;
@@ -404,6 +404,7 @@ typedef enum {
 - (void) updateBird
 {
     maxJumpTime --;
+    
     CGRect rect = birdClotherView.frame;
     if (maxJumpTime >= 0)
     {
@@ -505,7 +506,9 @@ typedef enum {
                                                              img_width,img_height,
                                                              img_widstp);
                     if(ret == 1)
-                        [self screenTap];
+                        dispatch_async(dispatch_get_main_queue(), ^{
+                            [self screenTap];
+                        });
                     
                     break;
                 }
